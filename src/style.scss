@@ -1,0 +1,120 @@
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #7f8c8d;
+    padding:20px;
+    font-weight:bold;
+    letter-spacing: 5px;
+    color:white;
+    text-align: center;
+    font-size: 3rem;
+
+    img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+}
+
+.form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #7f8c8d;
+    color:white;
+    border-radius: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.1s linear;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(204, 190, 190);
+    color: black;
+    // box-shadow: 1px 1px 18px 4px rgba(0,0,0,0.75);
+    // -webkit-box-shadow: 1px 1px 18px 4px rgba(0,0,0,0.75);
+    // -moz-box-shadow: 1px 1px 18px 4px rgba(0,0,0,0.75);
+  }
+
+  .output {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    border-radius: 50%;
+    line-height: 180px;
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: #ff9100;
+    font-weight: bold;
+    letter-spacing: 2px;
+    // box-shadow: 1px 1px 18px 4px rgba(0,0,0,0.75);
+    // -webkit-box-shadow: 1px 1px 18px 4px rgba(0,0,0,0.75);
+    // -moz-box-shadow: 1px 1px 18px 4px rgba(0,0,0,0.75);
+    animation: rotateY 1s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes rotateY {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+.Friends {
+      background-color: #f39c12;
+    color:white;
+  }
+.Love {
+    background-color: #d41a1a;
+    color:white;
+}
+.Affection {
+    background-color: #9b59b6;
+    color:white;
+}
+.Marriage {
+    background-color: #3498db;
+    color:white;
+}
+.Enemy {
+    background-color: #0d1c2b;
+    color:white;
+}
+.Sister {
+    background-color: #27ae60;
+    color:white;
+}
+
